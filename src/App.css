@@ -1,0 +1,46 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  text-align: center;
+  padding:20px;
+}
+.request-call{
+  display: grid;
+  margin:10vh 5vw;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 20px;
+  place-items: center;
+  position: relative;
+}
+.request-call>div{
+  border:1px solid black;
+  padding:10px;
+  min-height: 350px;
+  min-width: 250px;
+}
+.sendBtn{
+  padding: 10px 20px;
+  background-color: rgb(253, 139, 139);
+  color: white;
+  border:none;
+  font-size: 18px;
+  cursor: pointer;
+  display: block;
+  margin:0 auto;
+  position: absolute;
+  bottom: 20px;
+}
+.sendBtn:hover{
+  transform: scale(1.1,1.1);
+}
+.api-response{
+  width: 50vw;
+  min-height: 200px;
+  bordeR:1px solid black;
+  display: block;
+  margin: 15vh auto;
+}
